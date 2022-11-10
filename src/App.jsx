@@ -13,8 +13,9 @@ const HomePage = ({playlistArray})=>{
   //  get playlist model 
   const playlist = useStoreActions(actions => actions.playlist)
   
+  
   useEffect(()=>{
-    playlist.getPlaylistData('PL4cUxeGkcC9i5yvDkJgt60vNVWffpblB7')
+    playlist.getPlaylistData('PLillGF-RfqbZ2ybcoD2OaabW2P7Ws8CWu')
   }, [])
 
   return (

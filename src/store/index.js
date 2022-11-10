@@ -5,4 +5,4 @@ const store = createStore(persist({
   playlist: playlistModel
 }));
 
-export default store ;
+export default store;
